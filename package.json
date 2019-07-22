@@ -20,6 +20,10 @@
     "popper": "^1.0.1"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0"
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "grunt": "^1.0.4",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "node-sass": "^4.12.0"
   }
 }
