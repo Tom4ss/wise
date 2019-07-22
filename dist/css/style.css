@@ -85,38 +85,36 @@ a {
   cursor: pointer;
 }
 
-.fa-angle-left {
+a.carousel-control-prev {
   font-size: 2rem;
-  color: #000;
-  margin-top: 1rem;
-}
-
-.arrow-left {
   width: 4rem;
   height: 4rem;
-  border-radius: 0px 200px 200px 0px;
+  border-radius: 4rem;
   background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 40%;
+  left: -1.1rem;
 }
 
-.arrow-left:hover {
+a.carousel-control-prev:hover {
   background-color: #0fc690;
   color: #fff;
 }
 
-.fa-angle-right {
+a.carousel-control-next {
   font-size: 2rem;
-  color: #000;
-  margin-top: 1rem;
-}
-
-.arrow-right {
   width: 4rem;
   height: 4rem;
-  border-radius: 200px 0 0 200px;
+  border-radius: 4rem;
   background-color: #fff;
+  color: #000;
+  position: absolute;
+  top: 40%;
+  right: -1.1rem;
 }
 
-.arrow-right:hover {
+a.carousel-control-next:hover {
   background-color: #0fc690;
   color: #fff;
 }
