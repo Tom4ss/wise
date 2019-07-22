@@ -1,0 +1,38 @@
+.fa-angle-left {
+  font-size: 2rem;
+  //   width: 4rem;
+  //   height: 4rem;
+  //   border-radius: 0 50% 50% 0;
+  //   background-color: #fff;
+  color: #000;
+  margin-top: 1rem;
+}
+
+.arrow-left {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0px 200px 200px 0px;
+  background-color: #fff;
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
+
+.fa-angle-right {
+  font-size: 2rem;
+  color: #000;
+
+  margin-top: 1rem;
+}
+
+.arrow-right {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 200px 0 0 200px;
+  background-color: #fff;
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}

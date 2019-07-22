@@ -23,10 +23,15 @@
   .collapse {
     padding: 2rem;
   }
+
+  .navbar-responsive {
+    padding-left: 15rem;
+    background-color: #000;
+  }
   .navbar-toggler {
     outline: 0;
-    background-color: #000;
-    padding-left: 15rem;
+    // background-color: #000;
+    // padding-left: 15rem;
     border-radius: 0;
     .fa-bars {
       color: #fff;
