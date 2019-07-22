@@ -1,10 +1,1 @@
-{
-	"version": 3,
-	"file": "style.css",
-	"sources": [
-		"../../src/sass/style.scss",
-		"../../src/sass/base/_base.scss"
-	],
-	"names": [],
-	"mappings": "ACAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,GAAG,GACtB"
-}
+{"version":3,"sources":["../../src/sass/base/_base.scss"],"names":[],"mappings":"AAAA;EACE,sBAAqB,EACtB","file":"style.css"}
