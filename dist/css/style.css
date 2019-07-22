@@ -30,3 +30,49 @@ html {
 .loader img {
   width: 300px;
 }
+
+.navbar {
+  background-color: #0fc690;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.navbar ul .active {
+  color: #000;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+.navbar .collapse {
+  padding: 2rem;
+}
+
+.navbar .navbar-toggler {
+  outline: 0;
+  background-color: #000;
+  padding-left: 15rem;
+  border-radius: 0;
+}
+
+.navbar .navbar-toggler .fa-bars {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.fa-search {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}

@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Wise Bootstrap</title>
 
+    <!-- Style -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+
     <!-- bootstrap css -->
     <!-- <link rel="stylesheet" href="dist/css/bootstrap.min.css" /> -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-
-    <!-- Style -->
-    <link rel="stylesheet" href="dist/css/style.css" />
 
     <!-- Fontawesome -->
     <link
@@ -29,8 +29,8 @@
     <div class="loader-bg">
       <div class="loader"><img src="img/loading.gif" alt="loaging page" /></div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a href="#" class="navbar-brand">WISE</a>
+    <nav class="navbar navbar-expand-md" role="navigation">
+      <h1 class="navbar-brand">WISE</h1>
       <button
         class="navbar-toggler"
         type="button"
@@ -40,15 +40,13 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <li class="nav-item active">
-            <a href="#" class="nav-link"
-              >HOME<span class="sr-only">(current)</span></a
-            >
+            <a href="#" class="nav-link">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ABOUT</a>
