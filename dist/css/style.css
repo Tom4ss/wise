@@ -3,7 +3,7 @@ html {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #fff;
 }
 
@@ -60,6 +60,10 @@ a {
   margin-left: 10%;
 }
 
+.navbar .navbar-brand a {
+  color: #fff;
+}
+
 .navbar .collapse {
   padding: 2rem;
 }
@@ -91,6 +95,7 @@ a.carousel-control-prev {
   height: 4rem;
   border-radius: 4rem;
   background-color: #fff;
+  opacity: 1;
   color: #000;
   position: absolute;
   top: 40%;
@@ -108,6 +113,7 @@ a.carousel-control-next {
   height: 4rem;
   border-radius: 4rem;
   background-color: #fff;
+  opacity: 1;
   color: #000;
   position: absolute;
   top: 40%;
