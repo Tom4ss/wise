@@ -1,0 +1,31 @@
+.center {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  color: $primary-color;
+  background-color: $primary-light-color;
+
+  img {
+    background-color: $primary-light-color;
+
+    &:hover {
+      background-color: $primary-light-color;
+    }
+  }
+}
+
+.desc-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  &:hover {
+    border: 3px solid #fff;
+    padding: 0.5rem 2rem;
+    color: #fff;
+  }
+}

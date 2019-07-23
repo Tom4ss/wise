@@ -7,6 +7,11 @@ a {
   color: #fff;
 }
 
+.hr {
+  background-color: #0fc690;
+  width: 40%;
+}
+
 .loader-bg {
   width: 100%;
   height: 100%;
@@ -57,7 +62,6 @@ a {
 .navbar .navbar-brand {
   font-size: 2.4rem;
   font-weight: 700;
-  margin-left: 10%;
 }
 
 .navbar .navbar-brand a {
@@ -69,7 +73,6 @@ a {
 }
 
 .navbar .navbar-responsive {
-  padding-left: 15rem;
   background-color: #000;
 }
 
@@ -140,4 +143,39 @@ a.carousel-control-next:hover {
 
 .btn-read:hover {
   background-color: #000;
+}
+
+.center {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  color: #0fc690;
+  background-color: #54caa8;
+}
+
+.box img {
+  background-color: #54caa8;
+}
+
+.box img:hover {
+  background-color: #54caa8;
+}
+
+.desc-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.desc-img:hover {
+  border: 3px solid #fff;
+  padding: 0.5rem 2rem;
+  color: #fff;
 }
