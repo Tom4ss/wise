@@ -31,3 +31,44 @@ a.carousel-control-next {
     color: #fff;
   }
 }
+//  second carousel
+a.carousel-control-prev-second {
+  font-size: 2rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: #000;
+  color: #000;
+  position: absolute;
+  top: 40%;
+  left: 2rem;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+  .fa-angle-left {
+    color: #fff;
+    margin-left: 1rem;
+  }
+}
+
+a.carousel-control-next-second {
+  font-size: 2rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: #000;
+  // opacity: 1;
+  color: #000;
+  position: absolute;
+  top: 40%;
+  right: 2rem;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+  .fa-angle-right {
+    color: #fff;
+    margin-left: 1rem;
+  }
+}
