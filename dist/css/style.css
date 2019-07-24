@@ -243,3 +243,11 @@ a.btn-download {
   padding: 0.5rem 2rem;
   color: #fff;
 }
+
+.background {
+  background-color: #0fc690;
+}
+
+.background-contact {
+  background-color: #fff;
+}
