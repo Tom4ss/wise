@@ -32,9 +32,24 @@
 
 .background {
   background-color: $primary-color;
+  padding: 5rem;
 }
 
 .background-contact {
   background-color: #fff;
   padding: 2rem;
+}
+
+.background-footer {
+  background-color: $primary-dark-color;
+  padding: 5rem;
+}
+
+.foot {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 190px;
+  p {
+    color: #000;
+  }
 }

@@ -21,6 +21,11 @@ a {
   width: 25%;
 }
 
+footer > div,
+h3 {
+  color: #fff;
+}
+
 .loader-bg {
   width: 100%;
   height: 100%;
@@ -304,9 +309,25 @@ a.btn-download {
 
 .background {
   background-color: #0fc690;
+  padding: 5rem;
 }
 
 .background-contact {
   background-color: #fff;
   padding: 2rem;
+}
+
+.background-footer {
+  background-color: #023023;
+  padding: 5rem;
+}
+
+.foot {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 190px;
+}
+
+.foot p {
+  color: #000;
 }
