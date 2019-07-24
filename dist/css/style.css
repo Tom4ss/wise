@@ -12,6 +12,15 @@ a {
   width: 40%;
 }
 
+.h2 {
+  color: #fff;
+}
+
+.hr-two {
+  background-color: #fff;
+  width: 25%;
+}
+
 .loader-bg {
   width: 100%;
   height: 100%;
@@ -174,6 +183,55 @@ a.carousel-control-next-second .fa-angle-right {
   margin-left: 1rem;
 }
 
+a.carousel-control-prev-third {
+  width: 3rem;
+  height: 3rem;
+  background-color: #000;
+  color: #000;
+  position: absolute;
+  top: 42%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+a.carousel-control-prev-third:hover {
+  background-color: #0fc690;
+  color: #fff;
+}
+
+a.carousel-control-prev-third .fa-angle-left {
+  color: #fff;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+a.carousel-control-next-third {
+  width: 3rem;
+  height: 3rem;
+  background-color: #000;
+  color: #000;
+  position: absolute;
+  top: 32%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+a.carousel-control-next-third:hover {
+  background-color: #0fc690;
+  color: #fff;
+}
+
+a.carousel-control-next-third .fa-angle-right {
+  color: #fff;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.carousel-caption-desc {
+  background-color: #fff;
+  padding: 2rem;
+}
+
 .btn-read {
   padding: 0.7rem 2.5rem;
   background-color: #0fc690;
@@ -250,4 +308,5 @@ a.btn-download {
 
 .background-contact {
   background-color: #fff;
+  padding: 2rem;
 }
