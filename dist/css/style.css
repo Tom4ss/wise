@@ -116,10 +116,12 @@ a.carousel-control-prev {
   border-radius: 4rem;
   background-color: #fff;
   opacity: 1;
-  color: #000;
+  color: #000 !important;
   position: absolute;
   top: 40%;
   left: -1.1rem;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 a.carousel-control-prev:hover {
@@ -134,10 +136,12 @@ a.carousel-control-next {
   border-radius: 4rem;
   background-color: #fff;
   opacity: 1;
-  color: #000;
+  color: #000 !important;
   position: absolute;
   top: 40%;
   right: -1.1rem;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 a.carousel-control-next:hover {
@@ -240,43 +244,46 @@ a.carousel-control-next-third .fa-angle-right {
   padding: 2rem;
 }
 
-.btn-read {
+.btn-primary {
   padding: 0.7rem 2.5rem;
   background-color: #0fc690;
   outline: 0;
-  text-decoration: none;
-}
-
-.btn-read a {
-  color: #fff;
-  text-decoration: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   font-weight: 600;
 }
 
-.btn-read:hover {
-  background-color: #000;
+.btn-primary a {
+  color: #fff;
 }
 
-.btn-download {
+.btn-primary:hover {
+  background-color: #000;
+  text-decoration: none;
+}
+
+.btn-secondary {
   background-color: #000;
   padding: 0.7rem 2.5rem;
   outline: 0;
   text-align: center;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  font-weight: 600;
 }
 
-.btn-download:hover {
+.btn-secondary:hover {
   background-color: #0fc690;
+  text-decoration: none;
   color: #fff;
 }
 
-a.btn-download {
+a.btn-secondary {
   color: #fff;
 }
 
 .circle {
-  display: block;
+  display: inline-block;
   background-color: #54caa8;
   color: #023023;
   padding: 0.5rem;

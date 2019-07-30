@@ -1,31 +1,33 @@
-.btn-read {
+.btn-primary {
   padding: 0.7rem 2.5rem;
   background-color: $primary-color;
   outline: 0;
-  text-decoration: none;
-
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
   a {
     color: #fff;
-    text-decoration: none;
-    font-weight: 600;
   }
   &:hover {
     background-color: #000;
+    text-decoration: none;
   }
 }
 
-.btn-download {
+.btn-secondary {
   background-color: #000;
   padding: 0.7rem 2.5rem;
   outline: 0;
   text-align: center;
   transition: 0.2s ease-in-out;
+  font-weight: 600;
+
   &:hover {
     background-color: $primary-color;
+    text-decoration: none;
     color: #fff;
   }
 }
 
-a.btn-download {
+a.btn-secondary {
   color: #fff;
 }
