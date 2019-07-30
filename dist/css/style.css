@@ -3,8 +3,11 @@ html {
 }
 
 a {
-  text-decoration: none !important;
-  color: #fff;
+  color: #fff !important;
+}
+
+li {
+  list-style-type: none;
 }
 
 .hr {
@@ -21,9 +24,9 @@ a {
   width: 25%;
 }
 
-footer > div,
-h3 {
-  color: #fff;
+h4,
+address {
+  color: #ffffff;
 }
 
 .loader-bg {
@@ -272,8 +275,22 @@ a.btn-download {
   color: #fff;
 }
 
+.circle {
+  display: block;
+  background-color: #54caa8;
+  color: #023023;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  margin: 0.2rem;
+}
+
 .center {
   text-align: center;
+}
+
+.padding {
+  padding: 4rem;
 }
 
 .box {
@@ -309,7 +326,7 @@ a.btn-download {
 
 .background {
   background-color: #0fc690;
-  padding: 5rem;
+  padding: 4rem;
 }
 
 .background-contact {
@@ -325,9 +342,6 @@ a.btn-download {
 .foot {
   background-color: #fff;
   padding: 1rem;
-  margin-top: 190px;
-}
-
-.foot p {
-  color: #000;
+  text-align: center;
+  font-size: 1.2rem;
 }

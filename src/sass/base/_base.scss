@@ -3,8 +3,11 @@ html {
 }
 
 a {
-  text-decoration: none !important;
-  color: #fff;
+  color: #fff !important;
+}
+
+li {
+  list-style-type: none;
 }
 
 .hr {
