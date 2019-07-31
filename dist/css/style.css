@@ -390,18 +390,17 @@ a.btn-secondary {
   position: relative;
   text-align: center;
   color: #0fc690;
-  background-color: #54caa8;
-}
-
-.box img {
-  background-color: #54caa8;
 }
 
 .box img:hover {
+  opacity: 0.3;
+}
+
+figure {
   background-color: #54caa8;
 }
 
-.desc-img {
+figure .desc-img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -411,10 +410,11 @@ a.btn-secondary {
   transition: 0.5s ease-in-out;
 }
 
-.desc-img:hover {
+figure .desc-img:hover {
   border: 3px solid #fff;
   padding: 0.5rem 2rem;
   color: #fff;
+  cursor: default;
 }
 
 .background {
