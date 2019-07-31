@@ -3,7 +3,23 @@ h2 {
   font-weight: 700;
 }
 
+.h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
 h4,
 address {
   color: #ffffff;
+}
+
+.carousel-caption-desc > h3 {
+  color: $primary-color;
+  font-weight: 400;
 }

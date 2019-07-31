@@ -19,10 +19,6 @@ li {
   width: 40%;
 }
 
-.h2 {
-  color: #fff;
-}
-
 .hr-two {
   background-color: #fff;
   width: 25%;
@@ -33,9 +29,25 @@ h2 {
   font-weight: 700;
 }
 
+.h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
 h4,
 address {
   color: #ffffff;
+}
+
+.carousel-caption-desc > h3 {
+  color: #0fc690;
+  font-weight: 400;
 }
 
 .loader-bg {
@@ -415,6 +427,10 @@ a.btn-secondary {
   padding: 2rem;
 }
 
+.form-control {
+  padding: 1.3rem 1rem;
+}
+
 .background-footer {
   background-color: #023023;
   padding: 5rem;
@@ -425,4 +441,13 @@ a.btn-secondary {
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-small {
+    width: 100%;
+  }
+  .about-bg {
+    display: none;
+  }
 }
