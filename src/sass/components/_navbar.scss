@@ -44,6 +44,14 @@
   }
 }
 
+.search {
+  outline: 0;
+  border: 0;
+  display: none;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar-responsive {
     background-color: #000;
@@ -56,6 +64,11 @@
     .fa-bars {
       color: #fff;
       font-size: 1.5rem;
+    }
+    .fa-times {
+      color: #fff;
+      font-size: 1.5rem;
+      display: none;
     }
   }
 
